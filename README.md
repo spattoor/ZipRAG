@@ -2,6 +2,10 @@
 
 A Python reference-search app and read-only MCP server combining sourced Austin articles with the Analyzer’s dated ZIP-code scores.
 
+**[Open the free live demo →](https://spattoor-ziprag.streamlit.app/)**
+
+![Live ZipRAG comparing two dated ZIP-code scores with cited neighborhood references](docs/screenshot.jpg)
+
 ## Working free features
 
 - Search 18 attributed Wikipedia articles, split into 109 overlapping passages, with SQLite FTS5 and local TF-IDF vectors.
