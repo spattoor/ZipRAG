@@ -1,0 +1,114 @@
+{
+  "evaluated_at": "2026-11-02T07:05:26.370380+00:00",
+  "questions": 10,
+  "hits_at_3": 10,
+  "hit_at_3": 1.0,
+  "corpus": {
+    "documents": 18,
+    "chunks": 109,
+    "corpus_sha256": "3ea8ec4da38d9f6cfe17b9468b7b0f81bd1408c6a1e6a57fb0569a9c2630a80a",
+    "retrieval": "SQLite FTS5 + local TF-IDF cosine similarity"
+  },
+  "cases": [
+    {
+      "question": "Which community was built on the former Robert Mueller Municipal Airport?",
+      "expected_source": "https://en.wikipedia.org/wiki/Mueller_Community",
+      "retrieved_sources": [
+        "https://en.wikipedia.org/wiki/Mueller_Community",
+        "https://en.wikipedia.org/wiki/Crestview,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/Oak_Hill,_Austin,_Texas"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Which neighborhood contains Ramsey Park?",
+      "expected_source": "https://en.wikipedia.org/wiki/Rosedale,_Austin,_Texas",
+      "retrieved_sources": [
+        "https://en.wikipedia.org/wiki/Rosedale,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/East_Riverside-Oltorf,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/Hyde_Park_(Austin,_Texas)"
+      ],
+      "hit": true
+    },
+    {
+      "question": "What is the history of Austin's first streetcar suburb?",
+      "expected_source": "https://en.wikipedia.org/wiki/Hyde_Park_(Austin,_Texas)",
+      "retrieved_sources": [
+        "https://en.wikipedia.org/wiki/Hyde_Park_(Austin,_Texas)",
+        "https://en.wikipedia.org/wiki/Travis_Heights,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/South_Congress"
+      ],
+      "hit": true
+    },
+    {
+      "question": "What is South Congress known for?",
+      "expected_source": "https://en.wikipedia.org/wiki/South_Congress",
+      "retrieved_sources": [
+        "https://en.wikipedia.org/wiki/South_Congress",
+        "https://en.wikipedia.org/wiki/Travis_Heights,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/Downtown_Austin"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Where is the Clarksville Historic District located?",
+      "expected_source": "https://en.wikipedia.org/wiki/Clarksville_Historic_District_(Austin,_Texas)",
+      "retrieved_sources": [
+        "https://en.wikipedia.org/wiki/Clarksville_Historic_District_(Austin,_Texas)",
+        "https://en.wikipedia.org/wiki/Downtown_Austin",
+        "https://en.wikipedia.org/wiki/Hyde_Park_(Austin,_Texas)"
+      ],
+      "hit": true
+    },
+    {
+      "question": "What borders Barton Hills?",
+      "expected_source": "https://en.wikipedia.org/wiki/Barton_Hills,_Austin,_Texas",
+      "retrieved_sources": [
+        "https://en.wikipedia.org/wiki/Barton_Hills,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/Northwest_Hills,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/Zilker,_Austin,_Texas"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Which neighborhood has the Arroyo Seco street and creek?",
+      "expected_source": "https://en.wikipedia.org/wiki/Brentwood,_Austin,_Texas",
+      "retrieved_sources": [
+        "https://en.wikipedia.org/wiki/Brentwood,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/Bouldin_Creek,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/Allandale,_Austin,_Texas"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Where is the Wall of Welcome mural?",
+      "expected_source": "https://en.wikipedia.org/wiki/Crestview,_Austin,_Texas",
+      "retrieved_sources": [
+        "https://en.wikipedia.org/wiki/Brentwood,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/Crestview,_Austin,_Texas"
+      ],
+      "hit": true
+    },
+    {
+      "question": "What was Oak Hill called in the nineteenth century?",
+      "expected_source": "https://en.wikipedia.org/wiki/Oak_Hill,_Austin,_Texas",
+      "retrieved_sources": [
+        "https://en.wikipedia.org/wiki/Oak_Hill,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/Downtown_Austin",
+        "https://en.wikipedia.org/wiki/Northwest_Hills,_Austin,_Texas"
+      ],
+      "hit": true
+    },
+    {
+      "question": "Which neighborhood is bounded by Lake Austin and Mopac?",
+      "expected_source": "https://en.wikipedia.org/wiki/Tarrytown,_Austin,_Texas",
+      "retrieved_sources": [
+        "https://en.wikipedia.org/wiki/Tarrytown,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/Zilker,_Austin,_Texas",
+        "https://en.wikipedia.org/wiki/East_Riverside-Oltorf,_Austin,_Texas"
+      ],
+      "hit": true
+    }
+  ],
+  "limitations": "Small development set authored for this implementation. Measures article retrieval, not answer correctness, generalization, or Claude performance. No model API was called."
+}
